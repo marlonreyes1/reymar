@@ -1,0 +1,57 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	font-family: 'Dosis', sans-serif;
+	background: url(https://img.freepik.com/free-photo/carnivore-protein-diet-background_136595-1465.jpg?w=2000) no-repeat center center fixed;
+	-moz- background-size: cover;
+	-webkit- background-size: cover;
+	-o- background-size: cover;
+	background-size: cover;
+}
+
+img {
+	width: 150px;
+	height: 150px;
+	border-radius: 800px;
+	transition: all 800ms;
+}
+
+img:hover {
+	transform: rotate(360deg);
+}
+
+h1 {
+	box-shadow: 30px, 30px;
+	text-align: center;
+	color: purple;
+	border-radius: 40px;
+	font-size: 4em;
+	transition: all 500ms;
+}
+
+h1:hover {
+	color: darkred;
+}
+
+.buffer {
+	height: 80px;
+}
+
+hr {
+	margin: auto;
+	border-radius: 10px;
+	border: 5px solid darkolivegreen;
+	max-width: 80px;
+	opacity: 100%;
+}
+
+.btn {
+	font-weight: bold;
+	margin-top: 50px;
+	padding: 20px;
+	transition: transform 350ms;
+}
+
+.btn:hover {
+	transform: scale(1.1);
+}
